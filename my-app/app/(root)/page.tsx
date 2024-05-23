@@ -1,6 +1,7 @@
 import Totalbalance from '@/components/Totalbalance';
 import Headerbox from '@/components/ui/Headerbox'
 import React from 'react'
+import RightSidebar from '@/components/RightSidebar';
 
 function home() {
   const loggedIn={firstName: 'Umair'};
@@ -21,7 +22,13 @@ function home() {
           totalCurrentBalance={125980}
           />
         </header>
+        RECENT TRANSACTION
       </div>
+      <RightSidebar 
+      user={loggedIn}
+      transactions={[]}
+      banks={[{},{}]}
+      />
     </section>
   )
 }
