@@ -4,7 +4,7 @@ import React from 'react'
 import RightSidebar from '@/components/RightSidebar';
 
 function home() {
-  const loggedIn={firstName: 'Umair'};
+  const loggedIn={firstName: 'Umair',lastName:'khan', email:'asadsher2324@gmail.com'};
   return (
     
     <section className='home'>
