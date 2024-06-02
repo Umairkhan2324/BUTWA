@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "BUTWA",
   description: "Butwa is a modern banking app",
   icons:{
-    icon:'/icon/logo.svg'
+    icon:'/logo.svg'
   }
 };
 
