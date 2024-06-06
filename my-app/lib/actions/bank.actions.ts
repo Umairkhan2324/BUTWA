@@ -44,7 +44,7 @@ export const getAccounts = async ({ userId }: getAccountsProps) => {
           mask: accountData.mask!,
           type: accountData.type as string,
           subtype: accountData.subtype! as string,
-          appwriteItemId: bank.$id,
+          appwriteItemId: bank.id,
           sharaebleId: bank.shareableId,
         };
 

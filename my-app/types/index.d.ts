@@ -83,7 +83,7 @@ declare type Transaction = {
 };
 
 declare type Bank = {
-  $id: string;
+  id: string;
   accountId: string;
   bankId: string;
   accessToken: string;
@@ -203,7 +203,7 @@ declare interface BankTabItemProps {
   appwriteItemId?: string;
 }
 
-declare interface TotalBalanceBoxProps {
+declare interface TotalbalanceProps {
   accounts: Account[];
   totalBanks: number;
   totalCurrentBalance: number;
